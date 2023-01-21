@@ -1,0 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #202d36;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /*border: 1px solid rebeccapurple;*/
+}
+ .heder{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-direction: row;
+}
+.box-shodow{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.slider input {
+    padding: 10px 10px 10px 10px;
+    background-color: #2b3743;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    caret-color: white;
+    text-align: center;
+    outline: none;
+    color: white;
+}
+.slider select {
+    padding: 10px;
+    color: #a2abb4;
+    background-color: #2b3743;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%); 
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-gap: 2.75rem;
+    grid-template-columns: repeat(4, minmax(0 , 1fr));
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0;
+}
+.box{
+    background-color: #2b3743;
+    border-radius: 10px;
+    box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%);
+    height: auto;
+}
+.text{
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    color: #c0c9d2;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+    a{
+        text-decoration: none;
+        color: #c0c9d2;
+    }
+
+
+
+    /* respansiv*/
+
+
+    @media only screen and (max-width:900px)   {
+        .grid{
+        grid-template-columns: repeat(3, minmax(0 , 1fr));
+        }
+    }
+    @media only screen and (max-width:750px)   {
+        .grid{
+        grid-template-columns: repeat(2, minmax(0 , 1fr));
+        }
+    }
+
+    @media only screen and (max-width:500px)   {
+
+        .grid{
+            grid-template-columns: repeat(1, minmax(0 , 1fr));
+            }     
+            .slider{
+                flex-direction: column;
+            }
+            input{
+                margin-bottom: 10px;
+            }
+    }
+
