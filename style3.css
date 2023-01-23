@@ -123,6 +123,23 @@ color:white;
 
 
 /*respansw*/
+@media only screen and (max-width:920px)   {
+.left3 h3{
+font-size: 12px;
+width: 30px;
+}
+.right{
+    width: 60%;
+}
+
+}
+@media only screen and (max-width:802px)   {
+    .right{
+        width: 70%;
+    }
+}
+
+
 
 @media only screen and (max-width:768px)   {
     
@@ -130,6 +147,7 @@ color:white;
         flex-direction: column;
         margin: 0 auto;
         margin-top: 25px;
+        gap: 0;
     }
     .left{
         width: 100%;
@@ -145,5 +163,10 @@ color:white;
     .felx2{
         flex-direction: column;
     }
-    
+    .container{
+        width: 90%;
+    }
+
 }
+
+
