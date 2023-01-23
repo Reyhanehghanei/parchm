@@ -17,7 +17,7 @@
     padding: 0;
 }
 body{
-    background-color: #202d36;
+    background-color: #f2f2f2;
 }
 .container {
     width: 95%;
@@ -28,7 +28,7 @@ body{
 .heder{
      display: flex;
     justify-content: space-between;
-    color: white;
+    color:black;
     flex-direction: row;
     height: 30px;
 }
@@ -66,20 +66,20 @@ height: auto;
 }
 .left2 h2{
      font-size: 14px;
-    color: white;
+    color: black;
     margin-top: 15px;
 }
 .left2 h3{ 
     font-size: 25px;   
-    color: white;
+    color:black;
 }
 span{
-    color:gray;
+    color:rgb(75, 74, 74);
     margin-right:15px ;
 }
 .right2 h2{
     font-size: 14px;
-    color: white;
+    color:black;
     margin-top: 15px;
 }
 .right2{
@@ -91,9 +91,9 @@ span{
 }
 .bot{
     padding: 8px 20px;
-    background-color:#2b3743;
+    background-color:white;
     border: none; 
-    color: #bcc6cf;
+    color: black;
     border-radius: 5px;
     margin-top: 50px;
     cursor: pointer;
@@ -109,12 +109,12 @@ span{
 }
 .left3 h2{
 font-size: 20px;
-color:white;
+color:black;
 }
 
 .bot2{
-    background-color: #2b3743;
-    color: #6e7b84;
+    background-color:white;
+    color: black;
     border: none;
     padding: 0 10px;
     border-radius: 1px;
