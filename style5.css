@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f2f2;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    /*border: 1px solid rebeccapurple;*/
+    padding: 15px;
+}
+.heder{
+     display: flex;
+    justify-content: space-between;
+    color: black;
+    flex-direction: row;
+    height: 30px;
+}
+.box-shodow{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.heder a {
+    font-weight: bold;
+}
+
+.heder h4{
+    margin-top: 5px;
+}
+.con{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-top: 60px;
+    /*border: 1px solid darkblue;*/
+}
+.left{
+    width: 49%;
+    height: auto;
+}
+.left img{
+    width: 100%;
+}
+.right{
+width: 47%;
+height: auto;
+/*border: 1PX solid darkblue;*/
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.left2 h2{
+     font-size: 14px;
+    color: black;
+    margin-top: 15px;
+}
+.left2 h3{ 
+    font-size: 25px;   
+    color: black;
+}
+span{
+    color:rgb(65, 65, 65);
+    margin-right:15px ;
+}
+.right2 h2{
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+}
+.right2{
+    margin-top: 30px;
+}
+
+.a4{
+    margin-top: 15px;
+}
+.bot{
+    padding: 8px 20px;
+    background-color:white;
+    border: none; 
+    color: black;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+ .felx2{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+ }
+.right3{
+   /* border: 1px solid darkblue;*/
+}
+
+.left3 h2{
+font-size: 20px;
+color:black;
+}
+
+.bot2{
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 0 10px;
+    border-radius: 1px;
+    box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+/*respansw*/
+@media only screen and (max-width:920px)   {
+.left3 h3{
+font-size: 12px;
+width: 30px;
+}
+.right{
+    width: 60%;
+}
+
+}
+@media only screen and (max-width:802px)   {
+    .right{
+        width: 70%;
+    }
+}
+
+
+
+@media only screen and (max-width:768px)   {
+    
+    .con{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 25px;
+        gap: 0;
+    }
+    .left{
+        width: 100%;
+        flex-direction: column;
+    }
+    .right{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .felx2{
+        flex-direction: column;
+    }
+    .container{
+        width: 85%;
+    }
+
+}
+
+
