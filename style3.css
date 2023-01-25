@@ -105,8 +105,9 @@ span{
     margin-top: 20px;
  }
 .right3{
-    gap: 10px;
+   /* border: 1px solid darkblue;*/
 }
+
 .left3 h2{
 font-size: 20px;
 color:white;
@@ -120,6 +121,8 @@ color:white;
     border-radius: 1px;
     box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%);
     cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
 }
 
 
@@ -165,7 +168,7 @@ width: 30px;
         flex-direction: column;
     }
     .container{
-        width: 90%;
+        width: 85%;
     }
 
 }

@@ -30,13 +30,23 @@ body{
     display: flex;
     justify-content: space-between;
     color: white;
-    margin-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
     flex-direction: row;
+}
+.heder h4{
+    margin-top: 5px;
+}
+.h2 {
+    font-size: 22px;
+    margin-bottom: 8PX;
+    color: white;
+    font-weight: bold;
 }
 .box-shodow{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+
+
 .slider {
     display: flex;
     flex-direction: row;
@@ -50,11 +60,11 @@ body{
     border-radius: 5px;
     border: none;
     box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%);
-    cursor: pointer;
     caret-color: white;
     text-align: center;
     outline: none;
     color: white;
+    outline: 0;
 }
 .slider select {
     padding: 10px;
@@ -64,6 +74,7 @@ body{
     border: none;
     box-shadow: 1px 3px 9px 2px rgb(0 0 0 / 20%); 
     cursor: pointer;
+    outline: 0;
 }
 .grid{
     display: grid;
@@ -85,17 +96,24 @@ img{
     height: auto;
 }
  .text{
-    width: 100%;
+    width: 85%;
     padding: 10px;
     font-size: 10px;
-    color: #c0c9d2;
+    color: white;
     margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 5px;
      }
+     .text a h2{
+        font-weight: normal;
+        font-size: 15px;
+     }
     a{
         text-decoration: none;
         color: #c0c9d2;
+    }
+    span{
+        margin-left: 5px;
     }
 
     /* respansiv*/
